@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-weight: normal;
+}
+
+:root {
+    --black-color: #131415;
+    --white-color: #ffffff;
+    --gray-color: #232527;
+    --box-shadow: 7px 8px 52px rgba(0, 0, 0, 0.35);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    display: -ms-flexbox;
+}
+
+.flex-one {
+    flex: 1;
+    -ms-flex: 1;
+}
+
+.flex-half {
+    flex: 1.5;
+    -ms-flex: 1.5;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+
+.no-white-space {
+    white-space: nowrap;
+}
+
+.flex-column {
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+.a-j-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.a-j-space-between {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.margin-left {
+    margin-left: 1.5rem;
+}

@@ -1,0 +1,111 @@
+.check {
+    width: 100%;
+    height: 150vh;
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.check__head {
+    padding: 24px 30px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check__head .check__head__left {
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
+    margin: 0px 25px;
+    align-self: center;
+}
+
+.check__head__left h2 {
+    align-self: center;
+}
+
+.check__head__left .icon {
+    align-self: center;
+    font-size: 30px;
+}
+
+.check__body {
+    width: 100%;
+    padding: 14px 30px;
+    align-items: center;
+    margin-top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+}
+
+.check__body img {
+    width: 30rem;
+    margin-right: 10rem;
+}
+
+.check__body .icon {
+    font-size: 30px;
+    font-weight: 500;
+    color: green;
+}
+
+.icons__green {
+    color: green;
+    background-color: green;
+    font-size: 30px;
+    margin-right: 2rem;
+}
+
+.check__body__checks {
+    justify-content: space-between;
+}
+
+.checks {
+    margin-bottom: 2rem;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.icon__red {
+    color: red;
+    font-size: 30px;
+    margin-right: rem;
+}
+
+.white__green {
+    font-size: 30px;
+    margin-right: 2rem;
+}
+
+.check__body button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 40px;
+    background-color: var(--white-color);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.check .class__bottom {
+    justify-content: flex-end;
+}
+
+.check p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: right;
+}

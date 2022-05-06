@@ -1,0 +1,53 @@
+.classcard {
+    width: 100%;
+    padding: 16px 16px 16px 20px;
+    background: #484C50;
+    height: 85px;
+    align-self: stretch;
+    align-items: center;
+    margin: 16px 0px;
+}
+
+.cat__details {
+    width: 40%;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.cat__details p {
+    color: var(--white-color);
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.cat__details .icon {
+    font-size: 20px;
+}
+
+.round {
+    width: 6px;
+    height: 6px;
+    background-color: var(--white-color);
+}
+
+.classcard .button button {
+    display: flex;
+    justify-content: center;
+    padding: 12px 40px;
+    width: 180px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: var(--black-color);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+}
+
+.classcard .button button:hover {
+    cursor: pointer;
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
